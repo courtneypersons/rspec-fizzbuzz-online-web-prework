@@ -5,7 +5,7 @@ def fizzbuzz(number)
    "Fizz"
  elsif number % 5 == 0
    "Buzz" # Go fizz
- elsif number % 3 == 0 && number % 5 == 0
+ elsif (number % 3 == 0) && (number % 5 == 0)
    "fizzbuzz"
   end
 end
